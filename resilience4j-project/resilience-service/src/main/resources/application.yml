@@ -18,5 +18,5 @@ resilience4j:
     instances:
       api:
         limit-for-period: 2
-        limit-refresh-period: 1s
+        limit-refresh-period: 5s
         timeout-duration: 1s
