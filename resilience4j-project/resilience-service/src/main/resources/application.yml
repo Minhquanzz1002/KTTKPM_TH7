@@ -1,0 +1,15 @@
+resilience4j:
+  circuitbreaker:
+    api:
+
+  retry:
+    instances:
+      api:
+        max-attempts: 5
+        wait-duration: 10s
+  rate-limiter:
+    instances:
+      api:
+        limit-for-period: 2
+        limit-refresh-period: 1s
+        timeout-duration: 1s
