@@ -4,3 +4,6 @@
   * Retry
   * Ratelimiter
   * Circuit Breaker
+## Resilience4j
+### Retry
+![Retry](https://raw.githubusercontent.com/Minhquanzz1002/KTTKPM_TH7/main/demo/circuit-breaker.gif)
